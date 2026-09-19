@@ -1,0 +1,20 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1789799381755,
+      "tag": "0000_studio_booking_core",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1789799405003,
+      "tag": "0001_availability_function",
+      "breakpoints": true
+    }
+  ]
+}
