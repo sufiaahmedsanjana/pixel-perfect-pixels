@@ -276,6 +276,13 @@ export type Database = {
       [_ in never]: never
     }
     Functions: {
+      get_busy_ranges: {
+        Args: { _day: string; _studio_id: string }
+        Returns: {
+          ends_at: string
+          starts_at: string
+        }[]
+      }
       has_role: {
         Args: {
           _role: Database["public"]["Enums"]["app_role"]
